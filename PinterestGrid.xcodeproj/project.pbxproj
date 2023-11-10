@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD62F49D2ADED8C1009A3D9F /* PinterestGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62F49C2ADED8C1009A3D9F /* PinterestGridApp.swift */; };
+		AD62F49F2ADED8C1009A3D9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62F49E2ADED8C1009A3D9F /* ContentView.swift */; };
+		AD62F4A12ADED8C1009A3D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD62F4A02ADED8C1009A3D9F /* Assets.xcassets */; };
+		AD62F4A52ADED8C1009A3D9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD62F4A42ADED8C1009A3D9F /* Preview Assets.xcassets */; };
+		AD727E722AF97BDE0087B71B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E712AF97BDE0087B71B /* Item.swift */; };
+		AD727E742AF97BFE0087B71B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E732AF97BFE0087B71B /* Home.swift */; };
+		AD727E762AF97C4F0087B71B /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E752AF97C4F0087B71B /* PreferenceKeys.swift */; };
+		AD727E792AF97C690087B71B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E782AF97C690087B71B /* UIView+Extensions.swift */; };
+		AD727E7B2AF97C940087B71B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E7A2AF97C940087B71B /* View+Extensions.swift */; };
+		AD727E7D2AF97CE70087B71B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E7C2AF97CE70087B71B /* CardView.swift */; };
+		AD727E7F2AF97E950087B71B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E7E2AF97E950087B71B /* DetailView.swift */; };
+		AD727E822AFA1C150087B71B /* GridAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E812AFA1C150087B71B /* GridAnimationModel.swift */; };
+		AD727E842AFA238A0087B71B /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E832AFA238A0087B71B /* CGSize+Extensions.swift */; };
+		AD727E862AFA28FC0087B71B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727E852AFA28FC0087B71B /* UIImage+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD62F4992ADED8C1009A3D9F /* PinterestGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD62F49C2ADED8C1009A3D9F /* PinterestGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGridApp.swift; sourceTree = "<group>"; };
+		AD62F49E2ADED8C1009A3D9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD62F4A02ADED8C1009A3D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD62F4A22ADED8C1009A3D9F /* PinterestGrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinterestGrid.entitlements; sourceTree = "<group>"; };
+		AD62F4A42ADED8C1009A3D9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD727E712AF97BDE0087B71B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AD727E732AF97BFE0087B71B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD727E752AF97C4F0087B71B /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		AD727E782AF97C690087B71B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AD727E7A2AF97C940087B71B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		AD727E7C2AF97CE70087B71B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AD727E7E2AF97E950087B71B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AD727E812AFA1C150087B71B /* GridAnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridAnimationModel.swift; sourceTree = "<group>"; };
+		AD727E832AFA238A0087B71B /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		AD727E852AFA28FC0087B71B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD62F4962ADED8C1009A3D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD62F4902ADED8C1009A3D9F = {
+			isa = PBXGroup;
+			children = (
+				AD62F49B2ADED8C1009A3D9F /* PinterestGrid */,
+				AD62F49A2ADED8C1009A3D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD62F49A2ADED8C1009A3D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD62F4992ADED8C1009A3D9F /* PinterestGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD62F49B2ADED8C1009A3D9F /* PinterestGrid */ = {
+			isa = PBXGroup;
+			children = (
+				AD727E6F2AF97BD10087B71B /* Model */,
+				AD727E702AF97BD50087B71B /* View */,
+				AD727E802AFA1C010087B71B /* ViewModel */,
+				AD727E772AF97C5C0087B71B /* Helpers */,
+				AD62F49C2ADED8C1009A3D9F /* PinterestGridApp.swift */,
+				AD62F49E2ADED8C1009A3D9F /* ContentView.swift */,
+				AD62F4A02ADED8C1009A3D9F /* Assets.xcassets */,
+				AD62F4A22ADED8C1009A3D9F /* PinterestGrid.entitlements */,
+				AD62F4A32ADED8C1009A3D9F /* Preview Content */,
+			);
+			path = PinterestGrid;
+			sourceTree = "<group>";
+		};
+		AD62F4A32ADED8C1009A3D9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD62F4A42ADED8C1009A3D9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD727E6F2AF97BD10087B71B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD727E712AF97BDE0087B71B /* Item.swift */,
+				AD727E752AF97C4F0087B71B /* PreferenceKeys.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD727E702AF97BD50087B71B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD727E732AF97BFE0087B71B /* Home.swift */,
+				AD727E7C2AF97CE70087B71B /* CardView.swift */,
+				AD727E7E2AF97E950087B71B /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD727E772AF97C5C0087B71B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD727E782AF97C690087B71B /* UIView+Extensions.swift */,
+				AD727E7A2AF97C940087B71B /* View+Extensions.swift */,
+				AD727E832AFA238A0087B71B /* CGSize+Extensions.swift */,
+				AD727E852AFA28FC0087B71B /* UIImage+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD727E802AFA1C010087B71B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD727E812AFA1C150087B71B /* GridAnimationModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD62F4982ADED8C1009A3D9F /* PinterestGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD62F4A82ADED8C1009A3D9F /* Build configuration list for PBXNativeTarget "PinterestGrid" */;
+			buildPhases = (
+				AD62F4952ADED8C1009A3D9F /* Sources */,
+				AD62F4962ADED8C1009A3D9F /* Frameworks */,
+				AD62F4972ADED8C1009A3D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinterestGrid;
+			productName = PinterestGrid;
+			productReference = AD62F4992ADED8C1009A3D9F /* PinterestGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD62F4912ADED8C1009A3D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AD62F4982ADED8C1009A3D9F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AD62F4942ADED8C1009A3D9F /* Build configuration list for PBXProject "PinterestGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD62F4902ADED8C1009A3D9F;
+			productRefGroup = AD62F49A2ADED8C1009A3D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD62F4982ADED8C1009A3D9F /* PinterestGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD62F4972ADED8C1009A3D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD62F4A52ADED8C1009A3D9F /* Preview Assets.xcassets in Resources */,
+				AD62F4A12ADED8C1009A3D9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD62F4952ADED8C1009A3D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD727E792AF97C690087B71B /* UIView+Extensions.swift in Sources */,
+				AD727E7F2AF97E950087B71B /* DetailView.swift in Sources */,
+				AD727E762AF97C4F0087B71B /* PreferenceKeys.swift in Sources */,
+				AD727E862AFA28FC0087B71B /* UIImage+Extensions.swift in Sources */,
+				AD62F49F2ADED8C1009A3D9F /* ContentView.swift in Sources */,
+				AD727E842AFA238A0087B71B /* CGSize+Extensions.swift in Sources */,
+				AD727E7B2AF97C940087B71B /* View+Extensions.swift in Sources */,
+				AD727E722AF97BDE0087B71B /* Item.swift in Sources */,
+				AD727E822AFA1C150087B71B /* GridAnimationModel.swift in Sources */,
+				AD727E742AF97BFE0087B71B /* Home.swift in Sources */,
+				AD727E7D2AF97CE70087B71B /* CardView.swift in Sources */,
+				AD62F49D2ADED8C1009A3D9F /* PinterestGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD62F4A62ADED8C1009A3D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD62F4A72ADED8C1009A3D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD62F4A92ADED8C1009A3D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinterestGrid/PinterestGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinterestGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kashiash.PinterestGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD62F4AA2ADED8C1009A3D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinterestGrid/PinterestGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinterestGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kashiash.PinterestGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD62F4942ADED8C1009A3D9F /* Build configuration list for PBXProject "PinterestGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD62F4A62ADED8C1009A3D9F /* Debug */,
+				AD62F4A72ADED8C1009A3D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD62F4A82ADED8C1009A3D9F /* Build configuration list for PBXNativeTarget "PinterestGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD62F4A92ADED8C1009A3D9F /* Debug */,
+				AD62F4AA2ADED8C1009A3D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD62F4912ADED8C1009A3D9F /* Project object */;
+}
